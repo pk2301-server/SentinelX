@@ -2,7 +2,7 @@
  * SentinelX Backend Server
  * Express.js REST API for vulnerability scanning platform
  */
-const Scan = require("./models/Scan");
+const Scan = require("./models/scan");
 require("dotenv").config();
 const connectDB = require("./config/db");
 const express = require('express');
